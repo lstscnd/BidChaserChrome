@@ -1,30 +1,35 @@
 ﻿{
-// Required
-"name": "My Extension",
-"version": "versionString",
+  // http://code.google.com/chrome/extensions/manifest.html
+  
+  "name": "lstScnd",
+  "version": "0.0.1",
+  "description": "Watch PennyAuction Site and have and alert when to bid",
+  "icons": { 		
+          "32": "images/target32.png",
+          "48": "images/target48.png",
+          "128": "images/target128.png"
+  },
+  "default_locale": "en",
+  
+  // http://code.google.com/chrome/extensions/background_pages.html
+  "background_page": "background.html",
+  
+  // http://code.google.com/chrome/extensions/options.html
+  "options_page": "Options/options.html",
 
-// Recommended
-"description": "A plain text description",
-"icons": { 		
-        "32": "images/icon32.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-},
-"default_locale": "en",
+  // http://code.google.com/chrome/extensions/content_scripts.html
+  "content_scripts": [...],
+  
+  // http://code.google.com/chrome/extensions/manifest.html#permissions
+  // http://code.google.com/chrome/extensions/tabs.html
+  // http://code.google.com/chrome/extensions/notifications.html
+  "permissions": [...],
 
-// Pick one (or none)
-"browser_action": {...},
-"page_action": {...},
-"theme": {...},
-
-// Add any of these that you need
-"background_page": "aFile.html",
-"chrome_url_overrides": {...},
-"content_scripts": [...],
-"key": "publicKey",
-"minimum_chrome_version": "versionString",
-"options_page": "aFile.html",
-"permissions": [...],
-"plugins": [...],
-"update_url": "http://path/to/updateInfo.xml"
+  /* will probably add later 
+  // http://code.google.com/chrome/extensions/pageAction.html
+  "page_action": {...},
+  "key": "publicKey",
+  "minimum_chrome_version": "versionString",
+  "update_url": "http://path/to/updateInfo.xml"
+  */
 }
