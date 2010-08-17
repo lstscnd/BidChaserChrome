@@ -9,21 +9,20 @@
           "48": "images/target48.png",
           "128": "images/target128.png"
   },
-  "default_locale": "en",
   
   // http://code.google.com/chrome/extensions/background_pages.html
   "background_page": "background.html",
   
   // http://code.google.com/chrome/extensions/options.html
-  "options_page": "Options/options.html",
+  "options_page": "Options/options.html"
 
   // http://code.google.com/chrome/extensions/content_scripts.html
-  "content_scripts": [...],
+  //"content_scripts": [...],
   
   // http://code.google.com/chrome/extensions/manifest.html#permissions
   // http://code.google.com/chrome/extensions/tabs.html
   // http://code.google.com/chrome/extensions/notifications.html
-  "permissions": [...],
+  //"permissions": [...],
 
   /* will probably add later 
   // http://code.google.com/chrome/extensions/pageAction.html
